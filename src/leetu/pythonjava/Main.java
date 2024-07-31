@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(final String[] args) {
+        if (args.length < 2) {
+            System.out.println("Must specify [source file] and [destination file] in that order.");
+            return;
+        }
+
         save(transform(args[0]), args[1]);
     }
 

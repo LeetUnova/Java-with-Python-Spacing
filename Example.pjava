@@ -1,8 +1,0 @@
-public class Example
-    String something;
-
-    public Example(String something)
-        this.something = something;
-    
-    public void doThing()
-        System.out.println(something);
